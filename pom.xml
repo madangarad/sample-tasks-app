@@ -137,11 +137,11 @@
 	</pluginRepositories>
 	<distributionManagement>
            <snapshotRepository>
-            <id>>my-nexus-snapshots</id>
+            <id>>mydeployement</id>
            <url>http://35.202.17.175:8081/repository/maven-snapshots/</url>
           </snapshotRepository>
          <repository>
-          <id>my-nexus-releases</id>
+          <id>mydeployement</id>
           <url>http://35.202.17.175:8081/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
