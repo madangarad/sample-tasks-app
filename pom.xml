@@ -36,6 +36,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
+		
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -134,5 +135,15 @@
 			<url>https://repo.spring.io/milestones</url>
 		</pluginRepository>
 	</pluginRepositories>
+	<distributionManagement>
+           <snapshotRepository>
+            <id>>my-nexus-snapshots</id>
+           <url>http://35.202.17.175:8081/repository/maven-snapshots/</url>
+          </snapshotRepository>
+         <repository>
+          <id>my-nexus-releases</id>
+          <url>http://35.202.17.175:8081/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
 
 </project>
