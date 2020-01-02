@@ -1,1 +1,1 @@
-# Sample-Tasks-App
+# Sample-Tasks-Application
