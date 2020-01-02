@@ -5,10 +5,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.in28minutes.springboot.web</groupId>
-	<artifactId>todo-web-application-mysql</artifactId>
+	<artifactId>Sample-Tasks-App</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>todo-web-application-mysql</name>
+	<name>Sample-Tasks-App</name>
 
 	<description>Demo project for Spring Boot</description>
 
