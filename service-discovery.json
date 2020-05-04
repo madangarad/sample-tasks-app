@@ -1,0 +1,30 @@
+{   
+    
+    "family": "service-discovery",
+	  "networkMode": "awsvpc",
+    "containerDefinitions": [
+        {
+            "image": "983822094943.dkr.ecr.ap-south-1.amazonaws.com/signal-discovery:latest",
+            "name": "service-discovery",
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 8761,
+                    "hostPort": 8761
+                }
+            ],
+			"environment": [
+                {
+                    "name": "LOGSTASH_IP",
+                    "value": "localhost"
+                }
+            ]
+        }
+    ],
+	"cpu": "256",
+	"executionRoleArn": "arn:aws:iam::983822094943:role/ecsTaskExecutionRole",
+	"memory": "512",
+	"requiresCompatibilities": [ 
+       "FARGATE" 
+    ]
+}
