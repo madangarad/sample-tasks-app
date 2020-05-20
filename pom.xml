@@ -134,5 +134,15 @@
 			<url>https://repo.spring.io/milestones</url>
 		</pluginRepository>
 	</pluginRepositories>
+	
+	<distributionManagement>
+   		 <repository>
+        		<id>releases</id>
+       			<name>Releases</name>
+        		<url>http://169.254.154.143:8081/nexus/content/repositories/releases/</url>
+			<layout>default</layout>
+		</repository>
+	</distributionManagement>
+
 
 </project>
